@@ -41,4 +41,4 @@ jobs:
 
       - name: Update dependency graph
         if: github.ref == 'refs/heads/main'
-        uses: advanced-security/maven-dependency-submission-action@v4.0.0
+        uses: advanced-security/maven-dependency-submission-action@v4.0.3
